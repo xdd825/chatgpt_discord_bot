@@ -22,4 +22,4 @@ client.on(Events.MessageCreate, async message => {
  }
 );
 
-client.login('MTA2NDM3NDY2NjAzMjA1ODQ0MA.GwaW4Y.dEb30zXdMYozhnVmm4gxG49Cy5pDeS0QF2zWO4');
+client.login(process.env.discord_bot_apikey);
